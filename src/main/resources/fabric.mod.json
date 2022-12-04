@@ -20,7 +20,10 @@
   "entrypoints": {
     "main": [
       "net.morvun.primaltech.PrimalTech"
-    ]
+    ],
+    "fabric-datagen": [
+      "com.fabric.primaltech.PrimalTechDatagen"
+]
   },
   "mixins": [
     "primaltech.mixins.json"
