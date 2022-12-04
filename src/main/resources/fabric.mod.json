@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
-  "version": "${version}",
+  "id": "primaltech",
+  "version": "${0.0.1}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "PrimalTech",
+  "description": "Adds primal technologie",
   "authors": [
-    "Me!"
+    "morvun"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "",
+    "sources": "https://github.com/morvun/PrimalTech"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/primaltech/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.morvun.primaltech.PrimalTech"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "primaltech.mixins.json"
   ],
 
   "depends": {
