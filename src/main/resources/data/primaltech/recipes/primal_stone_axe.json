@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "   ",
+        "AP ",
+        " S "
+    ],
+    "key": {
+        "A": {
+            "item": "primaltech:primal_stone_axe_head"
+        },
+        "P": {
+            "item": "primaltech:plant_fiber"
+        },
+        "S": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "primaltech:primal_stone_axe",
+        "count": 1
+    }
+}

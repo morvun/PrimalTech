@@ -1,6 +1,8 @@
 {
+    "itemGroup.primaltech.general": "PrimalTech",
+
     "item.primaltech.plant_fiber": "Plant Fiber",
-
-
-    "itemGroup.primaltech.general": "PrimalTech"
+    "item.primaltech.pebble": "Pebble",
+    "item.primaltech.primal_stone_axe_head": "Stone Axe Head",
+    "item.primaltech.primal_stone_axe": "Primal Stone Axe"
 }

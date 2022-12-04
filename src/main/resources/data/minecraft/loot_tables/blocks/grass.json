@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "conditions": [
+            {
+                "condition": "random_chance",
+                "chance": 0.2
+            }
+        ],
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "primaltech:plant_fiber",
+            "function": [
+                {
+                    "function": "set_count",
+                    "count": 1
+                }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:wheat_seeds",
+            "function": [
+                {
+                    "function": "set_count",
+                    "count": 1
+                }
+            ]
+          }
+        ]
+      }
+    ]
+  }

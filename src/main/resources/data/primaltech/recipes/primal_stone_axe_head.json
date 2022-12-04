@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "W  ",
+      "W  ",
+      "   "
+    ],
+    "key": {
+      "W": {
+        "item": "primaltech:pebble"
+      }
+    },
+    "result": {
+      "item": "primaltech:primal_stone_axe_head",
+      "count": 1
+    }
+  }
