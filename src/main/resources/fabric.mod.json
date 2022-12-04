@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "primaltech",
-  "version": "${0.0.1}",
+  "version": "${version}",
 
   "name": "PrimalTech",
   "description": "Adds primal technologie",
@@ -9,7 +9,7 @@
     "morvun"
   ],
   "contact": {
-    "homepage": "",
+    "issues": "https://github.com/morvun/PrimalTech/issues",
     "sources": "https://github.com/morvun/PrimalTech"
   },
 
