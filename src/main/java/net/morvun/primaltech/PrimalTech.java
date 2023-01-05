@@ -4,6 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import net.fabricmc.api.ModInitializer;
+import net.morvun.primaltech.registry.PrimalBlocks;
 import net.morvun.primaltech.registry.PrimalItems;
 
 
@@ -19,5 +20,6 @@ public class PrimalTech implements ModInitializer {
 		LOGGER.info("Hello Primal world!");
 
 		PrimalItems.registerAll();
+		PrimalBlocks.registerAll();
 	}
 }
