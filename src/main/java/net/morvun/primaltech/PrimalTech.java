@@ -6,13 +6,14 @@ import org.slf4j.LoggerFactory;
 import net.fabricmc.api.ModInitializer;
 import net.morvun.primaltech.registry.PrimalBlocks;
 import net.morvun.primaltech.registry.PrimalItems;
+import net.morvun.primaltech.screen.PrimalTechScreenHandlers;
 
 
 public class PrimalTech implements ModInitializer {
 
-	public static final String ID = "primaltech";
+	public static final String MOD_ID = "primaltech";
 
-	public static final Logger LOGGER = LoggerFactory.getLogger(ID);
+	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	@Override
 	public void onInitialize() {
@@ -21,5 +22,6 @@ public class PrimalTech implements ModInitializer {
 
 		PrimalItems.registerAll();
 		PrimalBlocks.registerAll();
+		PrimalTechScreenHandlers.registerAllScreenHandlers();
 	}
 }
